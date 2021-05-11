@@ -1,4 +1,6 @@
 #include "../header/rectangle.hpp"
+
+#include "perimeter_test.hpp"
 #include "test_constructors.hpp"
 #include "test_area.hpp"
 
