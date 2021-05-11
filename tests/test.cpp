@@ -3,7 +3,6 @@
 #include "perimeter_test.hpp"
 #include "test_constructors.hpp"
 #include "test_area.hpp"
-#include "perimeter_test.hpp"
 #include "gtest/gtest.h" 
 
 int main(int argc, char **argv) {
