@@ -14,7 +14,7 @@ TEST (TestConstructor, NegativeValues) {
 	Rectangle* rect2 = new Rectangle(-2,-6);
 	int expected = 12;
 
-        EXPECT_EQ(expected, rect2->area);
+        EXPECT_EQ(expected, rect2->area());
 
         delete rect2;
 }
