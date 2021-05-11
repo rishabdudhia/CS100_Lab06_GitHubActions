@@ -21,3 +21,4 @@ int Rectangle::perimeter() {
     return (2*this->width) + (2*this->height);
 }
 
+Rectangle::Rectangle() : width(7), height(5) {}
