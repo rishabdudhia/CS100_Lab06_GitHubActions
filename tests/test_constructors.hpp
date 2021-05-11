@@ -3,7 +3,9 @@
 
 TEST (TestConstructor, NoInitialization){
 	Rectangle* rect1 = new Rectangle();
-	int expected = 4;
+	rect1->set_width(4);
+	rect1->set_height(3);
+	int expected = 14;
  
 	EXPECT_EQ(rect1->perimeter(), expected);
 	
