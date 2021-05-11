@@ -16,7 +16,7 @@ TEST (TestPerimeter, Normal) {
 TEST (TestPerimeter, NegVals) {
 	Rectangle* rect = new Rectangle(-5, -4);
 
-	int expected = 18;
+	int expected = -18;
 
 	EXPECT_EQ(rect->perimeter(), expected);
 	delete rect;
@@ -47,7 +47,7 @@ TEST (TestPerimeter, Square) {
         rect->set_width(7);
         rect->set_height(7);
 
-        int expected = 24;
+        int expected = 28;
 
         EXPECT_EQ(rect->perimeter(), expected);
         delete rect;
