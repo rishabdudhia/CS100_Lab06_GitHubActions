@@ -1,5 +1,8 @@
 #include "../header/rectangle.hpp"
+
 #include "perimeter_test.cpp"
+#include "test_constructors.hpp"
+#include "test_area.hpp"
 
 #include "gtest/gtest.h"
 
